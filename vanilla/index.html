@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+  <h1>Vanilla</h1>
+  <main>
+    <article class="flex">
+      <div>Radio buttons</div>
+      <div class="grid grid-rb">
+        <div>Enabled</div>
+        <div>Disabled</div>
+        <div>
+          <label><input type="radio" name="framework" value="react" checked>React</label>
+          <label><input type="radio" name="framework" value="angular">Angular</label>
+          <label><input type="radio" name="framework" value="vue">Vue</label>
+        </div>
+        <div>
+          <label><input type="radio" name="framework-disabled" disabled value="react">React</label>
+          <label><input type="radio" name="framework-disabled" disabled value="angular">Angular</label>
+          <label><input type="radio" name="framework-disabled" disabled value="vue" checked>Vue</label>
+        </div>
+      </div>
+    </article>
+    <article class="flex">
+      <div>Checkbox</div>
+      <div class="grid grid-switch">
+        <div>Off</div>
+        <div>Off<br>disabled</div>
+        <div>On</div>
+        <div>On<br>disabled</div>
+        <div><input type="checkbox" name="test1"></div>
+        <div><input type="checkbox" name="test2" disabled></div>
+        <div><input type="checkbox" name="test3" checked></div>
+        <div><input type="checkbox" name="test4" disabled checked></div>
+      </div>
+    </article>
+  </main>
+</body>
+
+</html>
