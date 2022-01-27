@@ -1,0 +1,33 @@
+body {
+  font-family: Avenir, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+  display: flex;
+  gap: 2rem;
+}
+
+.flex > div {
+  min-width: 15ch;
+}
+
+.grid {
+  display: grid;
+  gap: 0.5rem 2rem;
+}
+
+.grid-rb {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-switch {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+label {
+  display: block;
+}
